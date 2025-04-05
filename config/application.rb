@@ -23,5 +23,14 @@ module RailsAppRef
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # Where the I18n library should search for translation files
+    I18n.load_path += Dir[File.expand_path("config/locales") + "/*.yml"]
+
+    # Permitted locales available for the application
+    I18n.available_locales = [:en, :pt_br]
+
+    # Set default locale to something other than :en
+    I18n.default_locale = :pt_br
   end
 end

@@ -43,6 +43,29 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  #gems adicionadas
+  gem "bootstrap", "~> 5.3.0"
+  gem "sassc-rails"
+  gem 'rails-i18n', '~> 7.0.0'
+  gem 'jquery-rails'
+  gem 'pundit'
+  gem "devise", "~> 4.9"
+  gem 'hotwire-rails'
+  gem 'friendly_id', '~> 5.4.0'
+  gem 'pagy'
+  gem 'letter_opener'
+  gem 'sidekiq'
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'rubocop-rails', require: false
+  gem 'bullet'
+  gem 'ransack'
+  gem 'simple_form'
+  gem 'groupdate'
+  gem 'rolify'
+  gem 'carrierwave'
+  gem 'active_storage_validations'
 end
 
 group :development do
@@ -58,3 +81,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+
