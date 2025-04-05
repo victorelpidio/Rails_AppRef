@@ -18,9 +18,14 @@ Entrar em contato com victorelpidio950@gmail.com
 
 Instalação
 
-git clone http://git/sistemas/rails-appref
+git clone https://github.com/victorelpidio/Rails_AppRef.git
+
 Alterar arquivos de internacionalização
+
 Adequar o database.yml de acordo com as necessidades do projeto
+
 bundle install
+
 yarn install
+
 rails db:migrate
