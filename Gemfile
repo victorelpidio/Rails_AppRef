@@ -52,7 +52,7 @@ group :development, :test do
   gem 'pundit'
   gem "devise", "~> 4.9"
   gem 'hotwire-rails'
-  gem 'friendly_id', '~> 5.4.0'
+  gem 'friendly_id', '~> 5.5.1'
   gem 'pagy'
   gem 'letter_opener'
   gem 'sidekiq'
