@@ -141,7 +141,7 @@ GEM
       factory_bot (~> 6.5)
       railties (>= 5.0.0)
     ffi (1.17.1)
-    friendly_id (5.4.2)
+    friendly_id (5.5.1)
       activerecord (>= 4.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
@@ -420,7 +420,7 @@ DEPENDENCIES
   devise (~> 4.9)
   error_highlight (>= 0.4.0)
   factory_bot_rails
-  friendly_id (~> 5.4.0)
+  friendly_id (~> 5.5.1)
   groupdate
   hotwire-rails
   importmap-rails
