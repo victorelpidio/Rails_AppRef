@@ -45,7 +45,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   #gems adicionadas
-  gem "bootstrap", "~> 5.3.0"
+  gem "bootstrap", "~> 5.3.5"
   gem "sassc-rails"
   gem 'rails-i18n', '~> 7.0.0'
   gem 'jquery-rails'
