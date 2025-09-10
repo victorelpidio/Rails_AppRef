@@ -66,6 +66,10 @@ group :development, :test do
   gem 'rolify'
   gem 'carrierwave'
   gem 'active_storage_validations'
+  gem 'simple_form'
+  gem "lograge"
+  gem 'faker'
+  gem 'httparty'
 end
 
 group :development do
